@@ -1,0 +1,153 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fb7dcea0-f0aa-436d-b376-9fbfab82fd79")
+	(paper "D")
+	(title_block
+		(title "Inett Square X Replacement PCB")
+		(date "2025-06-14")
+	)
+	(lib_symbols)
+	(sheet
+		(at 49.53 34.29)
+		(size 236.22 196.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 54 185 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38c3f13e-7564-47dc-a6f8-e0d4f3e89c9a")
+		(property "Sheetname" "Switch Matrix"
+			(at 49.53 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 54 185 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switch_Matrix.kicad_sch"
+			(at 49.53 231.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 54 185 255 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Inett_60_PCB"
+				(path "/fb7dcea0-f0aa-436d-b376-9fbfab82fd79"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 341.63 35.56)
+		(size 224.79 195.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 213 255 101 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ca0c52b-a1ff-4918-a852-ffc145ea3291")
+		(property "Sheetname" "MCU & Components"
+			(at 341.63 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 213 255 101 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU&Components.kicad_sch"
+			(at 341.63 231.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 213 255 101 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Inett_60_PCB"
+				(path "/fb7dcea0-f0aa-436d-b376-9fbfab82fd79"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 605.79 36.83)
+		(size 226.06 195.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 80 255 201 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff480fe0-ed2d-43bf-8bb8-694bac942baf")
+		(property "Sheetname" "USB & POWER"
+			(at 605.79 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 80 255 201 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB&POWER.kicad_sch"
+			(at 605.79 232.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 80 255 201 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Inett_60_PCB"
+				(path "/fb7dcea0-f0aa-436d-b376-9fbfab82fd79"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
